@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bg-dark {
+  background-color: #262338 !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.text-white {
+  color: #fcfcfc !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card-mr {
+  margin: 50px !important;
+  border-radius: 32px !important;
+}
+
+.todo-chip {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background: #a996ff;
+  border-radius: 8px;
+  color: #14142b;
+  width: fit-content !important;
 }
 
-.App-link {
-  color: #61dafb;
+.form-style {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  gap: 20px !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.insert-btn {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+  align-items: center !important;
+  padding: 16px 24px !important;
+  gap: 12px !important;
+  background: #a996ff !important;
+  border-radius: 12px !important;
+  color: #4700ab !important;
+  min-width: fit-content !important;
+}
+
+.complete-btn {
+  display: block !important;
+  margin-left: auto !important;
+  background: #4700ab !important;
+  border-radius: 48px !important;
+  color: #fcfcfc !important;
+  padding: 8px 16px !important;
+  margin-top: 12px !important;
+}
+
+.delete-all{
+  background-color: red !important;
+}
+
+.text-center{
+  text-align: center !important;
 }
